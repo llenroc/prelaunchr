@@ -337,7 +337,7 @@ body{
 	width: 612px;
 	height: 394px;
 	background: url(/assets/refer/makerswooly.jpg) center center no-repeat;
-	background-size: 610px 394px;
+	/*background-size: 610px 394px;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
