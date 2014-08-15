@@ -19,6 +19,7 @@ form{
 
 .clearfix:before,
 .clearfix:after {
+
     content: " "; /* 1 */
     display: table; /* 2 */
 }
@@ -36,6 +37,11 @@ html.home{
 
 body{
 	height: 100%;
+	background: url(/assets/home/makersbg2.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
 }
 
 html{
@@ -53,13 +59,9 @@ html{
 
 #home .hero{
 	width: 100%;
-	height: 100%;
-	background: url(/assets/home/makersbg2.jpg) center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-	background-size: cover;
-	overflow: scroll;
+	height: 80%;
+
+	/*overflow: scroll;*/
 	position: relative;
 	letter-spacing: .09em;
 	margin: 0 auto;
@@ -70,8 +72,9 @@ html{
 .makerslogo img{
 	max-height: 100%;
 	max-width: 100%;
-	margin: auto;
-	margin-bottom: -75px;
+	height: 220px;
+	width: 330px;
+	/*margin: auto;*/
 	display: block;
 }
 

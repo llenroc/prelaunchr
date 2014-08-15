@@ -2,6 +2,7 @@
 <!--     <p class="large brandon">Maker's Label</p>
     <p class="small brandon">Born & Raised in America</p> -->
     <div class="makerslogo"><img src="<%= asset_path('home/makerslogo.png') %>"/></div> 
+</div>
 
 <div class="form-wrap clearfix <%= "ended" if Rails.application.config.ended %>">
     <% if Rails.application.config.ended %>
@@ -17,6 +18,5 @@
             <input class="submit brandon" name="commit" type="submit" value="Step Inside" />
         <% end %>
     <% end %>
-</div>
 
 </div>
