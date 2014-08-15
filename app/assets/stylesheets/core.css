@@ -20,6 +20,7 @@ form{
 .clearfix:before,
 .clearfix:after {
 
+
     content: " "; /* 1 */
     display: table; /* 2 */
 }
@@ -59,9 +60,9 @@ html{
 
 #home .hero{
 	width: 100%;
-	height: 80%;
+	height: 100%;
 
-	/*overflow: scroll;*/
+	overflow: scroll;
 	position: relative;
 	letter-spacing: .09em;
 	margin: 0 auto;
@@ -74,7 +75,6 @@ html{
 	max-width: 100%;
 	height: 220px;
 	width: 330px;
-	/*margin: auto;*/
 	display: block;
 }
 
