@@ -693,7 +693,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	#refer .prizes .progress .mover .bar{
 		background: url(/assets/refer/progress-done@2x.png) 0 0 repeat-x;
 		background-size: 1px 4px;
-	} */
+	} 
 
 	#refer .prizes .progress .mover .razor{
 		background: url(/assets/refer/razor@2x.png) 0 0 no-repeat;
@@ -710,7 +710,7 @@ only screen and (min-device-pixel-ratio: 2) {
 		background-size: 16px 10px;
 	}
 }
-
+*/
 
 
 
