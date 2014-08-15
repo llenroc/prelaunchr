@@ -19,8 +19,6 @@ form{
 
 .clearfix:before,
 .clearfix:after {
-
-
     content: " "; /* 1 */
     display: table; /* 2 */
 }
@@ -36,18 +34,6 @@ html.home{
 	background: #EDECEA;
 }
 
-body{
-	height: 100%;
-	background: url(/assets/home/makersbg2.jpg) center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-	background-size: cover;
-}
-
-html{
-	height: 100%;
-}
 
 #home{
 	/*padding-bottom: 50px;*/
@@ -60,8 +46,12 @@ html{
 
 #home .hero{
 	width: 100%;
-	height: 100%;
-
+	height: 500px;
+	background: url(/assets/home/makersbg2.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
 	overflow: scroll;
 	position: relative;
 	letter-spacing: .09em;
@@ -651,12 +641,12 @@ html{
 /*
 	RETINA
 */
-/* @media only screen and (min--moz-device-pixel-ratio: 2),
+@media only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-		background: url(/assets/home/makers.jpg) center center no-repeat;
+		background: url(/assets/home/makersbg2.jpg) center center no-repeat;
 		-webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -713,7 +703,6 @@ only screen and (min-device-pixel-ratio: 2) {
 		background-size: 16px 10px;
 	}
 }
-*/
 
 
 
