@@ -34,9 +34,15 @@ html.home{
 	background: #EDECEA;
 }
 
+html{
+	height: 100%;
+}
 
+body{
+	height: 100%;
+}
 #home{
-	/*padding-bottom: 50px;*/
+	padding-bottom: 50px;
 }
 
 #home .page-content{
@@ -46,7 +52,7 @@ html.home{
 
 #home .hero{
 	width: 100%;
-	height: 500px;
+	height: 80%;
 	background: url(/assets/home/makersbg2.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
