@@ -34,8 +34,16 @@ html.home{
 	background: #EDECEA;
 }
 
+body{
+	height: 100%;
+}
+
+html{
+	height: 100%;
+}
+
 #home{
-	padding-bottom: 50px;
+	/*padding-bottom: 50px;*/
 }
 
 #home .page-content{
@@ -45,13 +53,13 @@ html.home{
 
 #home .hero{
 	width: 100%;
-	height: 446px;
+	height: 100%;
 	background: url(/assets/home/makers.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 	background-size: cover;
-	overflow: hidden;
+	overflow: scroll;
 	position: relative;
 	letter-spacing: .09em;
 	margin: 0 auto;
@@ -61,6 +69,7 @@ html.home{
 	max-height: 100%;
 	max-width: 100%;
 	margin: auto;
+	margin-bottom: -75px;
 	display: block;
 }
 
@@ -99,7 +108,7 @@ html.home{
 	width: 46px;
 	height: 19px;
 	margin: 0 auto;
-	background: url(/assets/home/key.png) 0 0 no-repeat;
+	background: url(/assets/home/flagUS.jpg) 0 0 no-repeat;
 	background-size: 46px 19px;
 }
 
@@ -641,12 +650,15 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-/*		background: url(/assets/home/makers.jpg) center center no-repeat;
-		background-size: 1600px 446px;*/
+		background: url(/assets/home/makers.jpg) center center no-repeat;
+		-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+		background-size: cover;
 	}
 
 	#home .form-wrap .key{
-		background: url(/assets/home/key@2x.png) 0 0 no-repeat;
+		background: url(/assets/home/flagUS.jpg) 0 0 no-repeat;
 		background-size: 46px 19px;
 	}
 
