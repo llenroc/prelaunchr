@@ -343,7 +343,7 @@ body{
   -o-background-size: cover;
 	background-size: cover;
 	overflow: hidden;
-	margin-top: 15px;
+	/*margin-top: 15px;*/
 	float: left;
 }
 

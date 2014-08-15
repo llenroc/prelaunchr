@@ -7,12 +7,12 @@
 <div class="hero">
     <div class="page-content clearfix">
         <div class="mammoth">
-            <span class="need brandon">#MakersMovement<br>is Growing</span>
+<!--             <span class="need brandon">#MakersMovement<br>is Growing</span> -->
         </div>
         <div class="share-wrap">
             <p class="why brandon">Don't leave your friends behind</p>
             <p class="title brandon">INVITE FRIENDS &<br>RECEIVE YOUR FLASK FOR FREE!</p>
-            <p class="subtitle brandon">Share your unique link via email, Facebook or Twitter<br>and earn your flask with free shipping and before<br>we launch for each friend who signs up.</p>
+            <p class="subtitle brandon">Share your unique link via email, Facebook<br> or Twitter and earn your flask for free<br>when friends sign up.</p>
             <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
             <% twitter_message = "#MakersMovment is growing. Excited for @MakersLabel to launch." %>
             <div class="social-links">
@@ -44,7 +44,7 @@
     <div class="page-content">
         <p class="callout brandon">Here's How It Works:</p>
         <ul class="products clearfix">
-            <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Your Flask</p></li>
+            <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Your Flask is On The Way</p></li>
             <% stops.each do |stop| %>
                 <li class="product brandon <% if stop["selected"] %>selected<% end %> <% if stop["class"] == 'five' %>last<% end %>">
                     <div class="circle"><%= stop["count"] %></div>
