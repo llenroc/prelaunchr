@@ -47,11 +47,21 @@ html.home{
 	width: 100%;
 	height: 446px;
 	background: url(/assets/home/makers.jpg) center center no-repeat;
-	background-size: 1600px 446px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
 	overflow: hidden;
 	position: relative;
 	letter-spacing: .09em;
 	margin: 0 auto;
+}
+
+.makerslogo img{
+	max-height: 100%;
+	max-width: 100%;
+	margin: auto;
+	display: block;
 }
 
 #home .hero .large{
@@ -117,8 +127,8 @@ html.home{
 	width: 143px;
 	background: #074E6F;
 	float: left;
-	height: 37px;
-	line-height: 37px;
+	height: 33px;
+	line-height: 33px;
 	color: #FFF;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -631,8 +641,8 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-		background: url(/assets/home/makers.jpg) center center no-repeat;
-		background-size: 1600px 446px;
+/*		background: url(/assets/home/makers.jpg) center center no-repeat;
+		background-size: 1600px 446px;*/
 	}
 
 	#home .form-wrap .key{
