@@ -15,25 +15,25 @@ class User < ActiveRecord::Base
             'count' => 5,
             "html" => "Leather<br>is Cut",
             "class" => "two",
-            "image" =>  ActionController::Base.helpers.asset_path("refer/cream-tooltip@2x.png")
+            "image" =>  ActionController::Base.helpers.asset_path("refer/1.jpg")
         },
         {
             'count' => 10,
             "html" => "Leather<br>is Engraved",
             "class" => "three",
-            "image" => ActionController::Base.helpers.asset_path("refer/truman@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("refer/2.jpg")
         },
         {
             'count' => 25,
             "html" => "Leather<br>is Stitched",
             "class" => "four",
-            "image" => ActionController::Base.helpers.asset_path("refer/winston@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("refer/3.jpg")
         },
         {
             'count' => 50,
             "html" => "Your Flask<br>is Free!",
             "class" => "five",
-            "image" => ActionController::Base.helpers.asset_path("refer/blade-explain@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("refer/4.jpg")
         }
     ]
 
