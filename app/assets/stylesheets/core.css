@@ -336,7 +336,7 @@ body{
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: url(/assets/refer/makerswooly.jpg) center center no-repeat;
+	background: url(/assets/refer/makerswooly.jpg) 0 0 no-repeat;
 	/*background-size: 610px 394px;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
