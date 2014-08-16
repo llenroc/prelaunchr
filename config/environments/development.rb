@@ -45,6 +45,17 @@ Prelaunchr::Application.configure do
 
 
   # For mailer configs
-  config.action_mailer.perform_deliveries = false
+  # config.action_mailer.perform_deliveries = false
   config.action_mailer.raise_delivery_errors = true
+
+  config.action_mailer.smtp_settings = {
+    address: "smtp.gmail.com",
+    port: 587,
+    domain: "makerslabel.com",
+    authentication: "plain",
+    enable_starttls_auto: true,
+    user_name: "info@makerslabel.com",
+    password: "team123!"
+  }
+  
 end
