@@ -51,17 +51,17 @@ Prelaunchr::Application.configure do
   # config.assets.precompile += %w( search.js )
 
   # Disable delivery errors, bad email addresses will be ignored
-  config.action_mailer.raise_delivery_errors = true
+  # config.action_mailer.raise_delivery_errors = true
 
-  config.action_mailer.smtp_settings = {
-    address: "smtp.gmail.com",
-    port: 587,
-    domain: "makerslabel.com",
-    authentication: "plain",
-    enable_starttls_auto: true,
-    user_name: "info@makerslabel.com",
-    password: "team123!"
-  }
+  # config.action_mailer.smtp_settings = {
+  #   address: "smtp.gmail.com",
+  #   port: 587,
+  #   domain: "makerslabel.com",
+  #   authentication: "plain",
+  #   enable_starttls_auto: true,
+  #   user_name: "info@makerslabel.com",
+  #   password: "team123!"
+  # }
 
   # Enable threaded mode
   # config.threadsafe!
@@ -73,7 +73,7 @@ Prelaunchr::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
-  # config.action_mailer.default_url_options = { :host => 'www.example.com' }
+  config.action_mailer.default_url_options = { :host => 'www.makerslabel.com' }
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
