@@ -4,6 +4,8 @@ class UserMailer < ActionMailer::Base
     def signup_email(user)
         @user = user
         @twitter_message = "#Excited for @makerslabel to launch."
+  	    @url = 'http://makerslabel.com'
+
 
         mail(:to => user.email, :subject => "Thanks for signing up!")
     end
