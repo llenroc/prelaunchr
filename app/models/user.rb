@@ -31,7 +31,7 @@ class User < ActiveRecord::Base
         },
         {
             'count' => 50,
-            "html" => "Your Flask<br>is Free!",
+            "html" => "Your Flask<br>is Free",
             "class" => "five",
             "image" => ActionController::Base.helpers.asset_path("refer/4.jpg")
         }
@@ -52,7 +52,7 @@ class User < ActiveRecord::Base
     end
 
     def send_welcome_email
-        UserMailer.delay.signup_email(self)
-        # UserMailer.signup_email(self).deliver
+        # UserMailer.delay.signup_email(self)
+        UserMailer.signup_email(self).deliver
     end
 end
