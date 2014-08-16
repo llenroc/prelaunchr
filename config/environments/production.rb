@@ -73,7 +73,7 @@ Prelaunchr::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
-  config.action_mailer.default_url_options = { :host => 'www.makerslabel.com' }
+  config.action_mailer.default_url_options = { :host => 'makerslabel.herokuapp.com' }
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
